@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuración de la API de la blockchain y parámetros de minería
-BLOCKCHAIN_API_URL = os.getenv("BLOCKCHAIN_API_URL", "https://8fb6-2-137-118-154.ngrok-free.app")
+BLOCKCHAIN_API_URL = os.getenv("BLOCKCHAIN_API_URL", "https://c87f-2-137-118-154.ngrok-free.app")
 BLOCK_TIME = int(os.getenv("BLOCK_TIME", 10))
 DIFFICULTY = int(os.getenv("MINING_DIFFICULTY", 4))
 
